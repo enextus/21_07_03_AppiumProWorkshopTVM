@@ -36,7 +36,7 @@ public class AppiumHelloWorld {
 
     @Test
     public void appiumHelloWorld() throws InterruptedException {
-        Thread.sleep(10000);
+        Thread.sleep(50000);
         driver.findElementByAccessibilityId("Login Screen").click();
     }
 }
